@@ -1,0 +1,20 @@
+  /* ScannerCamera.css */
+
+/* Add animation keyframes for scaling */
+@keyframes scan-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Scale up by 10% */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply animation to the camera container during scanning */
+  .camera-container.scanning {
+    animation: scan-animation 1s ease-in-out infinite; /* Apply the animation */
+  }
+  

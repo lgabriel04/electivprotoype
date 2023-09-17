@@ -1,0 +1,111 @@
+/* App.css */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #4360ED;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-buttons {
+    margin-top: 10px;
+  }
+  
+  .navbar-button {
+    background-color: #4895EF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .scan-button {
+    background-color: #4895EF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .text-box {
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .read-button {
+    background-color: #4895EF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Media Query for Responsiveness */
+  @media (max-width: 768px) {
+    .navbar-title {
+      font-size: 1.2rem;
+    }
+  
+    .navbar-button {
+      padding: 8px 16px;
+    }
+  
+    .scan-button {
+      padding: 8px 16px;
+    }
+  
+    .text-box {
+      height: 150px;
+    }
+  
+    .read-button {
+      padding: 8px 16px;
+    }
+  }
+  
+
+  @media (min-width: 768px) {
+    .scanner-container {
+      display: flex;
+      align-items: center; /* Center horizontally */
+      text-align: center; /* Center text within the container */
+    }
+  }
+  
+  /* Center the "Scan" button vertically on mobile screens */
+  @media (max-width: 767px) {
+    .scanner-container {
+      display: flex;
+      justify-content: center; /* Center vertically */
+      text-align: center; /* Center text within the container */
+    }
+  }  
+
+
+
